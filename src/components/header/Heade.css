@@ -1,0 +1,145 @@
+.first-header {
+  background-color: #003d29;
+  color: white;
+  font-size: 13px;
+  line-height: 20px;
+  height: 36px;
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side span {
+  margin-left: 0.5em;
+}
+
+.center span {
+  margin-left: 1em;
+  border-left: 1px solid white;
+  padding-left: 1em;
+}
+.center {
+  cursor: pointer;
+}
+
+/* sec-header */
+
+.sec-header {
+  display: flex;
+  height: 82px;
+  padding: 15px 0;
+  color: #231f1e;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.categ-inp {
+  display: flex;
+  align-items: center;
+  width: 784px;
+  justify-content: space-between;
+}
+
+.category-rest {
+  display: flex;
+  align-items: center;
+}
+
+.category-rest span {
+  padding-left: 1.5em;
+  cursor: pointer;
+}
+
+.hover-grey:hover {
+  color: rgb(142, 135, 135);
+}
+
+input {
+  height: 40px;
+  width: 320px;
+  border: 1px solid #cccccc;
+  padding: 8px 50px 8px 20px;
+  border-radius: 25px;
+  position: relative;
+  font-size: 14px;
+}
+
+.inp {
+  display: flex;
+  align-items: center;
+}
+.search-btn {
+  position: absolute;
+  right: 26em;
+  color: rgb(102, 101, 101);
+  cursor: pointer;
+}
+
+.last-side {
+  display: flex;
+  align-items: center;
+}
+
+.last-side p {
+  margin: 1em;
+  cursor: pointer;
+}
+
+.hover-orange {
+  font-size: 14px;
+}
+
+.hover-orange:hover {
+  color: #ffa372;
+}
+
+/* categ-cont */
+
+.categ-cont {
+  display: grid;
+  height: 266px;
+  grid-template-columns: repeat(2, 348px);
+  grid-template-rows: repeat(3, 70px);
+  place-content: center;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-right: 2em;
+}
+
+.uno-cat-cont {
+  display: flex;
+  background-color: #f5f6f6;
+  height: 70px;
+  width: 348px;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.desc-p {
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;
+  margin-top: -15px;
+}
+
+.catgName {
+  margin-top: 5px;
+}
+
+.catgName:hover {
+  color: #4353ff;
+}
+
+.info-cont {
+  margin-left: 1em;
+}

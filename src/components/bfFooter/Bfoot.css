@@ -1,0 +1,75 @@
+.bfF-cont {
+  display: flex;
+  width: 1280px;
+  height: 540px;
+  padding: 60px 0 30px 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.first-bf-cont {
+  height: 318px;
+  width: 438px;
+  margin: 0 0 30px 0;
+  line-height: 20px;
+}
+
+.first-bf-cont p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #231f1e;
+  width: 385px;
+  margin: 40px 0 40px 0;
+}
+
+.first-bf-cont h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: black;
+  margin: 0 0 23px 0;
+}
+
+.grid-cont {
+  display: grid;
+  grid-template-columns: repeat(4, 58px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 10px 5px;
+}
+
+.pay-cont {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.sec-bf-cont {
+  display: flex;
+  width: calc(1280px - 438px);
+  justify-content: space-around;
+}
+
+.dep-info p {
+  font-size: 14px;
+  line-height: 28px;
+  color: black;
+  width: 194px;
+  margin: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dep-info p:hover {
+  color: rgb(232, 92, 41);
+  padding-left: 10px;
+}
+
+.dep-cont h6 {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0 0 23px 0;
+}

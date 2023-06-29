@@ -1,0 +1,62 @@
+.all-serv-cont {
+  width: 1370px;
+  height: 570px;
+  margin: 5em 86px;
+  padding: 0 40px;
+}
+
+.all-serv-cont h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #231f1e;
+  margin: 20px 0 40px 0;
+  font-family: sans-serif;
+}
+
+.serv-card-cont {
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  grid-template-rows: 480px;
+  justify-content: space-between;
+}
+
+.serv-child-cont {
+  background-color: #f5f6f6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.serv-child-cont h4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 230px;
+  height: 64px;
+  color: #333333;
+}
+
+.child-cont-info {
+  padding: 40px;
+  height: 219px;
+}
+
+.child-cont-info p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #231f1e;
+  width: 230px;
+  height: 51px;
+  margin-top: 1.5em;
+}
+
+.serv-child-cont:hover {
+  transform: scale(1.05);
+  background-color: aquamarine;
+}
